@@ -1,0 +1,43 @@
+DESCRIPTION
+
+This repository contains the datasets for automatic keyphrase extraction task.
+
+
+FILES
+
+Hulth2003.tar.gz  data from Hulth:2003
+Nguyen2007.zip    data from Nguyen:2007
+Wan208.tar.gz     data from Wan:2008
+
+
+BIBLIOGRAPHY
+
+@InProceedings{Hulth:2003,
+  author = {Annette Hulth},
+  title = {Improved automatic keyword extraction given more linguistic knowledge},
+  booktitle = {Proceedings of the 2003 conference on Empirical methods in natural language processing},
+  year = {2003},
+  pages = {216--223}
+}
+
+@InProceedings{Nguyen:2007,
+  author = {Thuy Dung Nguyen and Min-Yen Kan},
+  title = {Key phrase Extraction in Scientific Publications},
+  booktitle = {Proceeding of International Conference on Asian Digital Libraries},
+  year = {2007},
+  pages = {317--326}
+}
+
+@InProceedings{Wan:2008,
+  author = {Xiaojun Wan and Jianguo Xiao},
+  title = {CollabRank: Towards a Collaborative Approach to Single-Document Keyphrase Extraction},
+  booktitle = {Proceedings of 22nd International Conference on Computational Linguistics},
+  year = {2008},
+  address = {Manchester, UK},
+  pages = {969--976}
+}
+
+
+CONTACT
+
+If you have a dataset for automatic keyphrase extraction task and want to share it with others, please contact me for commit rights.
