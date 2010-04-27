@@ -7,13 +7,13 @@ FILES
 
 Hulth2003.tar.gz  data from Hulth:2003
 Nguyen2007.zip    data from Nguyen:2007
-Wan208.tar.gz     data from Wan:2008
+Wan2008.tar.gz     data from Wan:2008
 
 
 BIBLIOGRAPHY
 
 @InProceedings{Hulth:2003,
-  author = {Annette Hulth},
+  author = {Anette Hulth},
   title = {Improved automatic keyword extraction given more linguistic knowledge},
   booktitle = {Proceedings of the 2003 conference on Empirical methods in natural language processing},
   year = {2003},
