@@ -9,7 +9,7 @@ Hulth2003.tar.gz  data from Hulth:2003
 MAUI.tar.gz  	data from University of Waikato (KEA, MAUI systems)
 Nguyen2007.zip    data from Nguyen:2007
 Wan2008.tar.gz     data from Wan:2008
-
+Schutz2008.tar.gz 	data from Schutz:2008 (only answer sets and readme are provided. the papers are available at ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/articles.tar.gz)
 
 BIBLIOGRAPHY
 
@@ -62,6 +62,12 @@ BIBLIOGRAPHY
   pages = {254--256}
 }
 
+@MasterThesis{Schutz:2008,
+  author = {Alexander Thorsten Schutz}, 
+  title = {Keyphrase Extraction from Single Documents in the Open Domain Exploiting Linguistic and Statistical Methods},
+  booktitle = {National University of Ireland},
+  year = {2008}
+}
 
 CONTACT 
 If you have a dataset for automatic keyphrase extraction task and want to share it with others, please contact me for commit rights.
