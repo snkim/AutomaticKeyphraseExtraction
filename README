@@ -5,44 +5,33 @@ This repository contains the datasets for automatic keyphrase extraction task.
 
 FILES
 
-Hulth2003.tar.gz  data from Hulth:2003
+500N-KPCrowd.zip data from Marujo:LREC2012  (English News articles annotated using Crowdsourcing)
+110-PT-BN-KP.zip data from Marujo:Interspeech2011 (Portuguese Broadcast News - non-English AKE corpus)
 MAUI.tar.gz  	data from University of Waikato (KEA, MAUI systems)
-Nguyen2007.zip    data from Nguyen:2007
 Wan2008.tar.gz     data from Wan:2008
 Schutz2008.tar.gz 	data from Schutz:2008 (only answer sets and readme are provided. the papers are available at ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/articles.tar.gz)
+Nguyen2007.zip    data from Nguyen:2007
+Hulth2003.tar.gz  data from Hulth:2003
 
 BIBLIOGRAPHY
 
-@InProceedings{Frank:1999,
-  author = {Eibe Frank and Gordon W. Paynter and Ian H. Witten and Carl Gutwin and Craig G. Nevill-manning},
-  title = {Domain Specific Keyphrase Extraction},
-  booktitle = {Proceedings of the 16th International Joint Conference on AI},
-  year = {1999},
-  pages = {668--673}
+@InProceedings{Marujo:LREC2012,
+	Author = {Luis Marujo and Anatole Gershman and Jaime Carbonell and Robert Frederking and Jo\~ao P. Neto},
+	Booktitle = {Proceedings of the Eighth International Conference on Language Resources and Evaluation (LREC 2012)},
+	Title = {Supervised Topical Key Phrase Extraction of News Stories using Crowdsourcing, Light Filtering and Co-reference Normalization},
+	location = {Istanbul, Turkey},
+	publisher = {ELRA},
+	Year = {2012}
 }
 
-@InProceedings{Hulth:2003,
-  author = {Anette Hulth},
-  title = {Improved automatic keyword extraction given more linguistic knowledge},
-  booktitle = {Proceedings of the 2003 conference on Empirical methods in natural language processing},
-  year = {2003},
-  pages = {216--223}
-}
-
-@InProceedings{Medelyan:2006,
-  author = {Olena Medelyan and Ian Witten},
-  title = {Thesaurus based automatic keyphrase indexing},
-  booktitle = {Proceedings of the 6th ACM/IEED-CS joint conference on Digital libraries},
-  year = {2002},
-  pages = {296--297}
-}
-
-@InProceedings{Nguyen:2007,
-  author = {Thuy Dung Nguyen and Min-Yen Kan},
-  title = {Key phrase Extraction in Scientific Publications},
-  booktitle = {Proceeding of International Conference on Asian Digital Libraries},
-  year = {2007},
-  pages = {317--326}
+@InProceedings{Marujo:Interspeech2011,
+   author = {Luis Marujo and M\'{a}rcio Viveiros and Jo\~{a}o P. Neto},
+   title = {{Keyphrase Cloud Generation of Broadcast News}},
+   booktitle = {Interspeech 2011},
+   publisher = {ISCA},
+   location = {Florence, Italy},
+   year = {2011},
+   month = {September}
 }
 
 @InProceedings{Wan:2008,
@@ -54,6 +43,45 @@ BIBLIOGRAPHY
   pages = {969--976}
 }
 
+@MasterThesis{Schutz:2008,
+  author = {Alexander Thorsten Schutz}, 
+  title = {Keyphrase Extraction from Single Documents in the Open Domain Exploiting Linguistic and Statistical Methods},
+  booktitle = {National University of Ireland},
+  year = {2008}
+}
+
+@InProceedings{Nguyen:2007,
+  author = {Thuy Dung Nguyen and Min-Yen Kan},
+  title = {Key phrase Extraction in Scientific Publications},
+  booktitle = {Proceeding of International Conference on Asian Digital Libraries},
+  year = {2007},
+  pages = {317--326}
+}
+
+@InProceedings{Medelyan:2006,
+  author = {Olena Medelyan and Ian Witten},
+  title = {Thesaurus based automatic keyphrase indexing},
+  booktitle = {Proceedings of the 6th ACM/IEED-CS joint conference on Digital libraries},
+  year = {2002},
+  pages = {296--297}
+}
+
+@InProceedings{Hulth:2003,
+  author = {Anette Hulth},
+  title = {Improved automatic keyword extraction given more linguistic knowledge},
+  booktitle = {Proceedings of the 2003 conference on Empirical methods in natural language processing},
+  year = {2003},
+  pages = {216--223}
+}
+
+@InProceedings{Frank:1999,
+  author = {Eibe Frank and Gordon W. Paynter and Ian H. Witten and Carl Gutwin and Craig G. Nevill-manning},
+  title = {Domain Specific Keyphrase Extraction},
+  booktitle = {Proceedings of the 16th International Joint Conference on AI},
+  year = {1999},
+  pages = {668--673}
+}
+
 @InProceedings{Witten:1999,
   author = {Ian Witten and Gordon Paynter and Eibe Frank and Car Gutwin and Graig Nevill-Manning},
   title = {KEA:Practical Automatic Key phrase Extraction},
@@ -62,12 +90,6 @@ BIBLIOGRAPHY
   pages = {254--256}
 }
 
-@MasterThesis{Schutz:2008,
-  author = {Alexander Thorsten Schutz}, 
-  title = {Keyphrase Extraction from Single Documents in the Open Domain Exploiting Linguistic and Statistical Methods},
-  booktitle = {National University of Ireland},
-  year = {2008}
-}
 
 CONTACT 
 If you have a dataset for automatic keyphrase extraction task and want to share it with others, please contact me for commit rights.
