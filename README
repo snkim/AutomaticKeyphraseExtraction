@@ -9,8 +9,7 @@ FILES
 * 110-PT-BN-KP.zip data from Marujo:Interspeech2011 (non-English AKE corpus)
 * MAUI.tar.gz  	data from University of Waikato (KEA, MAUI systems)
 * Wan2008.tar.gz     data from Wan:2008
-* Schutz2008.tar.gz 	data from Schutz:2008 (only answer sets and readme are provided. the papers are available at 
-						ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/articles.tar.gz)
+* Schutz2008.tar.gz 	data from Schutz:2008 (only answer sets and readme are provided. the papers are available at ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/articles.tar.gz)
 * Nguyen2007.zip    data from Nguyen:2007
 * Hulth2003.tar.gz  data from Hulth:2003
 
