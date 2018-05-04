@@ -5,8 +5,6 @@ This repository contains the datasets for automatic keyphrase extraction task.
 
 FILES
 
-* 500N-KPCrowd.zip data from Marujo:LREC2012  (News articles annotated using AMT)
-* 110-PT-BN-KP.zip data from Marujo:Interspeech2011 (non-English AKE corpus)
 * MAUI.tar.gz  	data from University of Waikato (KEA, MAUI systems)
 * Wan2008.tar.gz     data from Wan:2008
 * Schutz2008.tar.gz 	data from Schutz:2008 (only answer sets and readme are provided. the papers are available at ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/articles.tar.gz)
@@ -14,25 +12,6 @@ FILES
 * Hulth2003.tar.gz  data from Hulth:2003
 
 BIBLIOGRAPHY
-
-@InProceedings{Marujo:LREC2012,
-	Author = {Luis Marujo and Anatole Gershman and Jaime Carbonell and Robert Frederking and Jo\~{a}o P. Neto},
-	Booktitle = {Proceedings of LREC 2012},
-	Title = {Supervised Topical Key Phrase Extraction of News Stories using Crowdsourcing, Light Filtering and Co-reference Normalization},
-	location = {Istanbul, Turkey},
-	publisher = {ELRA},
-	Year = {2012}
-}
-
-@InProceedings{Marujo:Interspeech2011,
-   author = {Luis Marujo and M\'{a}rcio Viveiros and Jo\~{a}o P. Neto},
-   title = {{Keyphrase Cloud Generation of Broadcast News}},
-   booktitle = {Proceedings of Interspeech 2011},
-   publisher = {ISCA},
-   location = {Florence, Italy},
-   year = {2011},
-   month = {September}
-}
 
 @InProceedings{Wan:2008,
   author = {Xiaojun Wan and Jianguo Xiao},
